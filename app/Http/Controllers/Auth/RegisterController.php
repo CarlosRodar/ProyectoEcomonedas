@@ -67,8 +67,6 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-
-
         $user=  User::create([
             'nombreCompleto' => $data['nombreCompleto'],
             'residencia' => $data['residencia'],
